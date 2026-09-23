@@ -20,7 +20,9 @@ function HeaderLogo() {
   );
 }
 
-export default function Header({ onHome, onNewSong }) {
+export default function Header({ onHome, onNewSong, theme, onToggleTheme }) {
+  const isDark = theme === 'dark';
+
   return (
     <header className="header">
       <div className="header-inner">
@@ -31,9 +33,20 @@ export default function Header({ onHome, onNewSong }) {
             <p className="subtitle">Movimiento Consolación para el Mundo</p>
           </div>
         </button>
-        <button type="button" className="btn btn-accent" onClick={onNewSong}>
-          + Nueva canción
-        </button>
+        <div className="header-actions">
+          <button
+            type="button"
+            className="btn btn-theme"
+            onClick={onToggleTheme}
+            aria-label={isDark ? 'Activar modo claro' : 'Activar modo oscuro'}
+            title={isDark ? 'Modo claro' : 'Modo oscuro'}
+          >
+            {isDark ? '☀️ Claro' : '🌙 Oscuro'}
+          </button>
+          <button type="button" className="btn btn-accent" onClick={onNewSong}>
+            + Nueva canción
+          </button>
+        </div>
       </div>
     </header>
   );

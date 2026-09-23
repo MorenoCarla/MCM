@@ -1,5 +1,6 @@
 import { useCallback, useState } from 'react';
 import Header from './components/Header';
+import { getInitialTheme, toggleTheme } from './utils/theme';
 import CategoryView from './components/CategoryView';
 import MomentView from './components/MomentView';
 import SongListView from './components/SongListView';
@@ -23,6 +24,11 @@ export default function App() {
   const [momentId, setMomentId] = useState('');
   const [currentSongId, setCurrentSongId] = useState(null);
   const [editingSongId, setEditingSongId] = useState(null);
+  const [theme, setTheme] = useState(getInitialTheme);
+
+  function handleToggleTheme() {
+    setTheme((current) => toggleTheme(current));
+  }
 
   const persist = useCallback((nextSongs) => {
     setSongs(nextSongs);
@@ -145,7 +151,12 @@ export default function App() {
 
   return (
     <>
-      <Header onHome={goHome} onNewSong={handleNewSong} />
+      <Header
+        onHome={goHome}
+        onNewSong={handleNewSong}
+        theme={theme}
+        onToggleTheme={handleToggleTheme}
+      />
       <main className="main">
         {view === VIEWS.categories && (
           <CategoryView
