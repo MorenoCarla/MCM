@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a8e6ff"/>
+      <stop offset="55%" stop-color="#6ecff6"/>
+      <stop offset="100%" stop-color="#b8e8f4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#sky)"/>
+  <ellipse cx="960" cy="920" rx="900" ry="120" fill="#ffffff" opacity="0.25"/>
+  <text x="960" y="540" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="42" font-weight="bold" opacity="0.5">
+    Reemplazá por public/fondo-mcm.jpg
+  </text>
+</svg>
