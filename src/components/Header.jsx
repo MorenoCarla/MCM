@@ -1,11 +1,7 @@
 import { useState } from 'react';
 
-const LOGO_FILES = [
-  './logo-mcm.png',
-  './logo-mcm.jpg',
-  './logo-mcm.webp',
-  './logo-mcm.svg',
-];
+const base = import.meta.env.BASE_URL;
+const LOGO_FILES = ['png', 'jpg', 'webp', 'svg'].map((ext) => `${base}logo-mcm.${ext}`);
 
 function HeaderLogo() {
   const [index, setIndex] = useState(0);
