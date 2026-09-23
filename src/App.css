@@ -29,25 +29,21 @@
   color-scheme: dark;
   --mcm-blue: #b8ecff;
   --mcm-blue-dark: #d4f4ff;
-  --mcm-blue-light: rgba(184, 236, 255, 0.14);
   --bg: #0a1218;
-  --surface: rgba(18, 28, 38, 0.96);
+  --surface: #162230;
   --surface-solid: #162230;
   --text: #ffffff;
   --text-muted: rgba(255, 255, 255, 0.78);
   --border: rgba(184, 236, 255, 0.28);
-  --bg-overlay: rgba(8, 14, 20, 0.88);
+  --bg-overlay: rgba(12, 20, 28, 0.7);
   --shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
   --shadow-hover: 0 8px 28px rgba(0, 0, 0, 0.45);
-  --surface-hover: rgba(184, 236, 255, 0.12);
+  --surface-hover: #243448;
   --surface-elevated: #1f3040;
+  --mcm-blue-light: #1e3344;
   --accent-soft: rgba(255, 217, 102, 0.14);
   --danger-hover-bg: rgba(192, 57, 43, 0.22);
   --heading: #ffffff;
-}
-
-:root[data-theme='dark'] body::before {
-  opacity: 0.28;
 }
 
 :root[data-theme='dark'] .btn-ghost,
@@ -129,6 +125,18 @@
 
 :root[data-theme='dark'] .key-shift-value {
   color: #ffffff;
+}
+
+:root[data-theme='dark'] .moment-card:hover,
+:root[data-theme='dark'] .category-card:hover,
+:root[data-theme='dark'] .song-list-item button:hover {
+  background: var(--surface-hover);
+  border-color: var(--mcm-blue);
+}
+
+:root[data-theme='dark'] .moment-count {
+  background: #1e3344;
+  color: var(--mcm-blue);
 }
 
 :root[data-theme='dark'] .song-content,
