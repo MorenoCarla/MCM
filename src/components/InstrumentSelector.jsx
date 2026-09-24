@@ -1,7 +1,9 @@
 const INSTRUMENTS = [
   { id: 'guitar', label: 'Guitarra' },
+  { id: 'ukulele', label: 'Ukelele' },
   { id: 'piano', label: 'Piano' },
-  { id: 'both', label: 'Ambos' },
+  { id: 'both', label: 'Guitarra + Piano' },
+  { id: 'all', label: 'Todos' },
 ];
 
 export default function InstrumentSelector({ value, onChange }) {
@@ -21,7 +23,7 @@ export default function InstrumentSelector({ value, onChange }) {
         ))}
       </div>
       <p className="instrument-hint">
-        Los mismos acordes sirven para guitarra y piano — cambiá el instrumento para ver cada diagrama.
+        Elegí el instrumento para ver su diagrama. Guitarra y ukelele usan la misma cejilla si la activás.
       </p>
     </div>
   );

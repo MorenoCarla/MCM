@@ -905,6 +905,97 @@ Yo no dudo me perdone Dios amigo
 Dios amor`,
   },
   {
+    id: 'jesus-amigo',
+    title: 'Jesús Amigo',
+    key: 'Am',
+    artist: '',
+    placements: [{ categoryId: 'misa', momentId: 'comunion' }],
+    body: `G Am                          G
+Hoy te quiero contar, Jesús amigo
+        F            E
+Que contigo estoy feliz
+                Am            G
+Si tengo tu amistad lo tengo todo
+        F             G
+Pues estás dentro de mí
+ 
+                 C            G
+Después de comulgar me haces como tú
+     F           E
+Me llenas de tu paz
+             C            G
+En cada pedacito de este pan
+            F            G
+Completo estás y así te das
+ 
+              Am            G
+Estás ahí por mí, porque conoces
+         F          E
+Que sin ti pequeño soy
+                C          G
+De ahora en adelante nada nos
+       F           G
+Separará, ya lo verás
+ 
+ 
+      G            C
+Te escondes en el pan
+      F               G
+Y aunque no te puedo ver
+    Em          Am
+Te puedo acompañar
+         F        G
+Es mi lugar preferido
+ 
+       G         C
+Hoy quiero comulgar
+   F            G
+Abrirte mi corazón
+ Em           Am
+Así de par en par
+         F      G
+Eres mi mejor amigo
+ 
+ G  Am                     G
+Dos mil años atrás a tus amigos
+     F         G
+Invitaste a cenar
+               Am            G
+Y ahí les prometiste que con ellos
+      F               G
+Por siempre ibas a estar
+ 
+              C               G
+Y ahora cada vez que el sacerdote
+          F           G
+Eleva el pan en el altar
+               C             G
+Me pongo de rodillas porque se
+            F           G
+Que en esa hostia tú estás
+ 
+        F      G
+... Mi mejor amigo
+ 
+ G               C
+Me vuelves a salvar
+                       G
+Como lo hiciste en la cruz
+    Em      Am
+En cada misa tú
+         G       A7
+Repites tu sacrificio
+ 
+                 D
+Hoy quiero comulgar
+   G             A7
+Abrirte mi corazón
+ F#m          Bm
+Así de par en par
+         G      A7      D    D4
+Eres mi mejor amigo, Jesús`,
+  },
+  {
     id: 'aleluya-gloria-aleluya',
     title: 'Aleluya Gloria Aleluya',
     key: 'C',

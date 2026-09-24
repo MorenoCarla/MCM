@@ -137,7 +137,7 @@ export default function SongView({
               transpose={transpose}
               onChange={setTranspose}
             />
-            {(instrument === 'guitar' || instrument === 'both') && (
+            {(instrument === 'guitar' || instrument === 'ukulele' || instrument === 'both' || instrument === 'all') && (
               <CapoPicker capo={capo} onChange={setCapo} />
             )}
             <ChordStrip

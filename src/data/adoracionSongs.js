@@ -1672,4 +1672,456 @@ Olvidándose de aquello que le dolía
 Como gesto a toda la humanidad
 Me regaló a su madre, María`,
   },
+  {
+    id: 'bendito-sea-dios',
+    title: 'Bendito sea Dios',
+    key: 'D',
+    artist: '',
+    placements: [{ categoryId: 'adoracion', momentId: '' }],
+    body: `D
+Bendito sea Dios.
+D
+Bendito sea su santo Nombre.
+G          A         D        Bm
+Bendito sea Jesucristo, Dios y Hombre verdadero.
+G         A       Bm7
+Bendito sea el Nombre de Jesús.
+G       Em         A
+Bendito sea su Sacratísimo Corazón.
+G      F#7        Bm
+Bendita sea su Preciosísima Sangre.
+G         F#7      Bm       A          G
+Bendito sea Jesús en el Santísimo Sacramento del Altar.
+Em            F#m            F#
+Bendito sea el Espíritu Santo Paráclito.
+B             E             F#       B          F#
+Bendita sea la excelsa Madre de Dios, María Santísima. (Santísima)
+G#m7                        C#m
+Bendita sea su Santa e Inmaculada Concepción.
+A                    F#
+Bendita sea su gloriosa Asunción.
+B                  E        F#      B            F#
+Bendito sea el nombre de María Virgen y Madre. (y Madre)
+G#m                         C#m7
+Bendito sea San José, su castísimo esposo.
+A                E           F#         B
+Bendito sea Diooooos en sus Ángeles y en sus Santos.
+
+            G#m7               E
+Bendito sea Dios.(Bendito sea Dios)
+            F#                   B
+Bendito sea Dios.(Bendito sea Dios)
+            G#m7               E
+Bendito sea Dios.(Bendito sea Dios)
+
+C#m     F#      B
+Bendito sea Dios.`,
+  },
+  {
+    id: 'dulce-locura',
+    title: 'Dulce Locura',
+    key: 'G',
+    artist: '',
+    defaultCapo: 1,
+    placements: [{ categoryId: 'adoracion', momentId: '' }],
+    body: `  G                          Am
+Creo que no encuentro las palabras
+ D                  G
+Se hace dificil expresar
+ Em                      Am
+El alma y gira y da mil vueltas
+ D                     G
+Estas presente en el Altar
+ 
+  G                        Am
+Te veo escondido en la custodia
+ D                  G
+Y siempre intento recordar
+ Em                      Am
+Que tu me miras, y yo te miro
+ D                     G
+Y no hace falta mucho mas.
+ 
+G                    C
+Dulce locura, te escondes en el pan.
+D                 G
+Que mas podrias dar?
+Em                        Am
+Sencillo y fragil, Dios eterno
+D                        G
+Nos traes la vida, traes la paz.
+ 
+  G                  Am
+Me fascina este misterio,
+ D                           G
+Como es que Tu has querido entrar
+ Em                      Am
+Dentro de este pobre corazon
+ D                     G
+Que en ti se funde al comulgar
+ 
+  G               Am
+En el mundo no hay amor asi
+ D                  G
+Amor que llego a morir
+ Em                      Am
+Resucistaste y ahora estas aqui
+ D                     G
+En el sagrario, junto a mi.
+ 
+  G                             C
+Dulce locura, te escondes en el pan.
+ D                 G
+Que mas podrias dar?
+ Em                        Am
+Sencillo y fragil, Dios eterno
+ D                        G
+Nos traes la vida, traes la paz.
+ 
+ D                G
+Ante ti rindo mi vida
+ Am          D        G
+Quiero estar cerca de ti
+ Am          D           Em
+Compartir mis suenos y alegrias.
+ Am          D        G
+Quiero amarte... Cada dia mas.`,
+  },
+  {
+    id: 'de-la-cabeza-al-corazon',
+    title: 'De la cabeza al corazón',
+    key: 'E',
+    artist: '',
+    defaultCapo: 1,
+    placements: [{ categoryId: 'adoracion', momentId: '' }],
+    body: `[Intro] E  D  A  E
+  
+E                    D
+Cada vez que vengo a verte
+A                    E
+Hay un instante de dolor
+E                         D
+Porque siento que estoy lejos
+A           E
+De tu corazón
+ 
+E                   D
+Aunque me inunde la certeza
+A               E
+De tu infinito amor
+E           D
+Lo sabe mi cabeza
+A                        E
+Pero se le olvida al corazón
+ 
+ 
+E              B
+Convénceme Señor
+                         A
+De que tu amor no se merece
+                          E
+Y llévame de la cabeza al corazón
+ 
+ 
+               A
+Tu amor es más grande
+              E
+Que mi debilidad
+              C#m
+No hay nada que Tú
+                  B
+No me quieras perdonar
+               A
+Me postro ante Ti
+                  E
+Solo quiero adorarte
+              B
+Y dejarme salvar
+ 
+A
+Hazme viajar
+         B           E
+De la cabeza al corazón
+ 
+[Interludio] E  D  A  E
+  
+E                   D
+Cada vez que me sonríes
+A                     E
+Se me encoge el corazón
+E                      D
+Porque cuesta que me mires
+A                    E
+Y que veas mi interior
+ 
+E                          D
+Porque son muchos mis pecados
+A                      E
+Pero más grande es tu amor
+E                    D
+Ahora lo sabe mi cabeza
+A                       E
+Haz que lo sepa el corazón
+ 
+E              B
+Convénceme Señor
+                              A
+De que me quieres porque quieres
+                              E
+Y llévame de la cabeza al corazón
+ 
+                   A
+Tu amor es más grande
+              E
+Que mi debilidad
+              C#m
+No hay nada que Tú
+                   B
+No me quieras perdonar
+               A
+Me postro ante Ti
+                 E
+Solo quiero adorarte
+              B
+Y dejarme salvar
+ 
+               A
+Tu amor es más grande
+              E
+Que mi debilidad
+              C#m
+No hay nada que Tú
+                  B
+No me quieras perdonar
+               A
+Me postro ante Ti
+                  E
+Solo quiero adorarte
+              B
+Y dejarme salvar
+A
+Hazme viajar
+       B            C#m
+De la cabeza al corazón
+ 
+A
+Hazme viajar
+        B            E
+De la cabeza al corazón
+ 
+A        Am             E
+Día tras día aquí de rodillas
+B          C#m
+Pidiendo perdón
+                  A
+Se que a ti te basta
+                Am
+Se que no te cansas
+                    E         B
+Pero se que me has hecho para mucho
+        C#m
+Más que esto
+           A          Am
+Llévame Señor de mi cabeza a tu
+   B  E
+Corazón`,
+  },
+  {
+    id: 'vuelvo-otra-vez',
+    title: 'Vuelvo otra vez',
+    key: 'C',
+    artist: '',
+    placements: [{ categoryId: 'adoracion', momentId: '' }],
+    body: `F            G
+Vuelvo otra vez
+C
+A postrarme a tus pies
+          Am
+Para reconocer
+                     F
+Que lo he vuelto a hacer
+                   G
+Te he fallado otra vez
+              Em
+Y hoy corro a tu
+Am     G   F
+Misericordia
+  
+                C
+He empezado a caminar con la certeza
+                Em
+De que todo lo que dices es verdad
+                F
+Y aunque todavía no lo vea
+                C                  G
+Voy a esperar porque sé que lo harás
+  
+                C
+Ahora que lo pienso me doy cuenta
+                Em
+Algo esta empezando a cambiar
+                F
+Y sin dudarlo ni un segundo doy la vuelta
+                 G
+Y te vengo a buscar
+ 
+ 
+F          G
+Vuelvo otra vez
+                  C
+A postrarme a tus pies
+      Am
+Para reconocer
+                  F
+Que lo has vuelto a hacer
+                   G
+Me has curado otra vez
+            Em
+Y hoy vuelvo a
+Am      G  F
+Darte gloria
+  
+             F
+Mientras espero
+                   G
+Levantaré mi corazón
+            F
+Y en el camino
+               G
+Esta será mi oración
+ 
+                F
+Que tuyo es el reino
+              G
+Tuyo el poder
+                F
+Tuya es la gloria
+                G
+Por siempre mi rey
+ 
+             F
+Mientras espero
+                G
+Levantaré mi corazón
+            F
+Y en el camino
+                G
+Esta será mi oración
+ 
+                F
+Que tuyo es el reino
+           G
+Tuyo el poder
+                F
+Tuya es la gloria
+                G
+Por siempre mi rey
+ 
+                Dm
+Que tuyo es el reino
+          Em
+Tuyo el poder
+                F
+Tuya es la gloria
+                G
+Por siempre mi rey
+ 
+ 
+F          G
+Vuelvo otra vez
+                  C
+A postrarme a tus pies
+      Am
+Para reconocer
+                  F
+Que lo has vuelto a hacer
+                   G
+Me has curado otra vez
+            Em
+Y hoy vuelvo a
+Am              G  F
+Darte toda la gloria
+ 
+F          G
+Vuelvo otra vez
+                  C
+A postrarme a tus pies
+      Am
+Para reconocer
+                  F
+Que lo has vuelto a hacer
+                   G
+Me has curado otra vez
+            Em
+Y hoy vuelvo a
+Am      G  F
+Darte gloria`,
+  },
+  {
+    id: 'no-se-que-viste-en-mi',
+    title: 'No sé que viste en mí',
+    key: 'F',
+    artist: '',
+    placements: [
+      { categoryId: 'adoracion', momentId: '' },
+      { categoryId: 'otros', momentId: '' },
+    ],
+    body: `          F        F                       Dm
+Ahí estás Tú, esperando la sentencia en silencio
+            Am
+Se alza un grito entre la gente,
+         Bb                            C
+que prefiere a un criminal antes que a ti.
+ 
+            F            F                      Dm
+Y allí estás Tú, tan llagado que cuesta reconocerte,
+       Am                      Bb
+entre burlas e insultos, sin amor sin amigos,
+        Bb                C
+hemos huido todos de la cruz.
+ 
+     Bb                         C
+Pues yo también he sido uno de ellos,
+         F             C                Dm
+he preferido cualquier cosa antes que a ti,
+                  Bb                 C
+te he dado la espalda un sinfín de veces,
+        F            C         Dm
+no he dejado que te muevas en mí,
+       Bb                C                      F
+y aun así dices que me amas, no sé qué viste en mí.
+ 
+ 
+             F           F                 Dm
+¿Qué viste en mí? Sabes que yo no merezco tanto,
+     Am                Bb
+pero yo necesito, tu amor infinito.
+       Bb                   C
+Por favor, no me dejes sin ti.
+ 
+  Bb                    C
+Ayúdame a que valga la pena,
+             F            C               Dm
+me he dado cuenta que no puedo estar sin ti.
+             Bb                     C
+Que valga la pena: que viva tu condena,
+          F         C           Dm
+junto a María de rodillas ante ti.
+       Bb                    C
+Perdóname, ahora aquí me tienes, derramado
+  F
+a tus pies.
+ 
+ 
+        Bb            C          F         C
+Sé que cometí el error de anteponer a tus
+        Dm
+caminos la razón.
+        Bb          C               F         C
+Sé que volveré a caer, más de mil veces fallaré
+           Dm
+a tu perdón,
+       Bb                 C                      F
+y aun así dices que me amas, no sé que viste en mí.`,
+  },
 ];

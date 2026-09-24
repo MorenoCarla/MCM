@@ -8,5 +8,5 @@
   <circle cx="60" cy="60" r="56" fill="url(#sky)"/>
   <circle cx="60" cy="60" r="48" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.9"/>
   <text x="60" y="56" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="26" font-weight="bold">MCM</text>
-  <text x="60" y="78" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="8" font-weight="bold" opacity="0.95">CONSOLACIÓN</text>
+  <text x="60" y="78" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="8" font-weight="bold" opacity="0.95">CONSOLACIï¿½N</text>
 </svg>

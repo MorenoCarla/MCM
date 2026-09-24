@@ -9,6 +9,6 @@
   <rect width="1920" height="1080" fill="url(#sky)"/>
   <ellipse cx="960" cy="920" rx="900" ry="120" fill="#ffffff" opacity="0.25"/>
   <text x="960" y="540" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="42" font-weight="bold" opacity="0.5">
-    Reemplazá por public/fondo-mcm.jpg
+    Reemplazï¿½ por public/fondo-mcm.jpg
   </text>
 </svg>
