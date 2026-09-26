@@ -6,6 +6,7 @@ export default function ChordStrip({
   onSelectChord,
   instrument = 'both',
   capo = 0,
+  chordNotation = 'letters',
 }) {
   if (!chords.length) return null;
 
@@ -20,13 +21,13 @@ export default function ChordStrip({
             className={`chord-strip-item ${activeChord === chord ? 'active' : ''}`}
             onClick={() => onSelectChord(activeChord === chord ? null : chord)}
           >
-            <ChordDisplay chord={chord} instrument={instrument} compact capo={capo} />
+            <ChordDisplay chord={chord} instrument={instrument} compact capo={capo} chordNotation={chordNotation} />
           </button>
         ))}
       </div>
       {activeChord && (
         <div className="chord-strip-expanded">
-          <ChordDisplay chord={activeChord} instrument={instrument} capo={capo} />
+          <ChordDisplay chord={activeChord} instrument={instrument} capo={capo} chordNotation={chordNotation} />
         </div>
       )}
     </div>

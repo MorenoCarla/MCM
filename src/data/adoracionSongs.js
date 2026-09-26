@@ -2124,4 +2124,127 @@ a tu perdón,
        Bb                 C                      F
 y aun así dices que me amas, no sé que viste en mí.`,
   },
+  {
+    id: 'extranjeros',
+    title: 'Extranjeros',
+    key: 'C',
+    artist: '',
+    placements: [{ categoryId: 'otros', momentId: '' }],
+    body: `       C
+Extranjeros de este mundo
+    G
+Buscamos algo distinto
+    Am
+Llamados a algo mas grande
+    F
+Luchamos el buen combate
+ 
+           C
+Que tus deseos sean los míos
+     G
+Mi maestro, señor, mi amigo
+       Am
+No te vayas de mi lado
+          F
+Todo lo puedo de tu mano
+ 
+           C
+Ser sal y luz en este mundo
+         G
+La santidad es lo que busco
+         Am
+Dejando todo en el camino
+              F
+Hoy yo me entrego y te sigo
+ 
+         C
+Para llegar
+           G
+Y poder decir
+                     Am
+Señor, no me guardé nada
+                  F
+Lo dejé todo por ti
+ 
+      C
+Hoy llevo la cruz delante
+ G
+Nada es más importante
+          Am
+Almas sedientas de tu paz
+          F
+Con un vacío que llenar
+ 
+           C
+Llevar al mundo tu alegría
+         G
+Es el tesoro de la vida
+      Am
+Entregarse, servir y amar
+         F
+Y compartir el caminar
+ 
+           C
+Ser sal y luz en este mundo
+         G
+La santidad es lo que busco
+         Am
+Dejando todo en el camino
+              F
+Hoy yo me entrego y te sigo
+ 
+         C
+Para llegar
+           G
+Y poder decir
+                     Am
+Señor, no me guardé nada
+                  F
+Lo dejé todo por ti
+ 
+   Am
+A ser tu soldado
+F
+Tu me has llamado
+          C
+Con tu palabra como espada
+       G
+Voy a conquistar las almas
+ 
+   Am
+A ser tu soldado
+F
+Tu me has llamado
+    C
+Es duro el combate
+          G
+Pero el premio es mas grande
+ 
+           C
+Ser sal y luz en este mundo
+         G
+La santidad es lo que busco
+         Am
+Dejando todo en el camino
+              F
+Hoy yo me entrego y te sigo
+ 
+         C
+Para llegar
+           G
+Y poder decir
+                     Am
+Señor, no me guardé nada
+                  F
+Lo dejé todo por ti
+ 
+         C
+Para llegar
+           G
+Y poder decir
+                     Am
+Señor, no me guardé nada
+                  F
+Lo dejé todo por ti`,
+  },
 ];

@@ -21,7 +21,7 @@ const BLACK_H = 32;
 const W = WHITE_KEYS.length * WHITE_W;
 const H = WHITE_H + 14;
 
-export default function PianoDiagram({ chord, compact = false }) {
+export default function PianoDiagram({ chord, displayName, compact = false }) {
   const { keys, parsed } = getPianoKeys(chord);
   const activeSet = new Set(keys);
   const scale = compact ? 0.65 : 1;
@@ -29,7 +29,7 @@ export default function PianoDiagram({ chord, compact = false }) {
   if (!parsed) {
     return (
       <div className={`piano-diagram ${compact ? 'compact' : ''} unknown`}>
-        <span className="chord-diagram-name">{chord}</span>
+        <span className="chord-diagram-name">{displayName || chord}</span>
         <span className="chord-diagram-fallback">Sin diagrama</span>
       </div>
     );
@@ -37,7 +37,7 @@ export default function PianoDiagram({ chord, compact = false }) {
 
   return (
     <div className={`piano-diagram ${compact ? 'compact' : ''}`}>
-      <span className="chord-diagram-name">{chord}</span>
+      <span className="chord-diagram-name">{displayName || chord}</span>
       <svg
         viewBox={`0 0 ${W} ${H}`}
         width={W * scale}

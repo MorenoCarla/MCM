@@ -8,14 +8,14 @@ const PAD = 10;
 const FRET_W = W - PAD * 2;
 const FRET_H = (H - PAD * 2) / (FRET_COUNT + 0.5);
 
-export default function UkuleleDiagram({ chord, compact = false }) {
+export default function UkuleleDiagram({ chord, displayName, compact = false }) {
   const data = getUkuleleDiagram(chord);
   const size = compact ? 48 : W;
 
   if (!data) {
     return (
       <div className={`chord-diagram ukulele-diagram ${compact ? 'compact' : ''} unknown`}>
-        <span className="chord-diagram-name">{chord}</span>
+        <span className="chord-diagram-name">{displayName || chord}</span>
         <span className="chord-diagram-fallback">Sin diagrama</span>
       </div>
     );
@@ -38,7 +38,7 @@ export default function UkuleleDiagram({ chord, compact = false }) {
 
   return (
     <div className={`chord-diagram ukulele-diagram ${compact ? 'compact' : ''}`}>
-      <span className="chord-diagram-name">{chord}</span>
+      <span className="chord-diagram-name">{displayName || chord}</span>
       <svg
         viewBox={`0 0 ${W} ${H}`}
         width={svgW}

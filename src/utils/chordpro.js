@@ -67,13 +67,15 @@ import {
   normalizeChordLine,
   transposeChordLine,
 } from './cifraClub';
+import { chordToSolfege } from './chordNotation';
 import { noteIndex, transposeChord, transposeNote } from './chordMath';
 
 const CHORD_REGEX = /^([A-G](?:#|b)?)(.*)$/;
 const HAS_BRACKET_CHORDS = /\[([^\]]+)\]/;
 
-export function formatKeyLabel(key) {
+export function formatKeyLabel(key, notation = 'letters') {
   if (!key) return '';
+  if (notation === 'solfege') return chordToSolfege(key);
   return KEY_LABELS[key] || key;
 }
 

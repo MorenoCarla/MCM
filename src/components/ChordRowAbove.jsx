@@ -1,6 +1,7 @@
 import { splitChordLine } from '../utils/cifraClub';
+import { formatChordDisplay } from '../utils/chordNotation';
 
-export default function ChordRowAbove({ chordLine, onChordClick }) {
+export default function ChordRowAbove({ chordLine, onChordClick, chordNotation = 'letters' }) {
   const parts = splitChordLine(chordLine);
 
   return (
@@ -14,7 +15,7 @@ export default function ChordRowAbove({ chordLine, onChordClick }) {
             onClick={() => onChordClick(part.text)}
             title="Ver diagrama"
           >
-            {part.text}
+            {formatChordDisplay(part.text, chordNotation)}
           </button>
         ) : (
           <span key={i} className="chord-spacer">{part.text}</span>

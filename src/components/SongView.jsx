@@ -6,7 +6,13 @@ import {
   parseBodyLines,
 } from '../utils/chordpro';
 import { extractChordsFromBody } from '../utils/chordDiagrams';
+import {
+  getInitialChordNotation,
+  saveChordNotation,
+  formatChordDisplay,
+} from '../utils/chordNotation';
 import { formatAllPlacements } from '../utils/placements';
+import ChordNotationToggle from './ChordNotationToggle';
 import KeyPicker from './KeyPicker';
 import CapoPicker from './CapoPicker';
 import ChordStrip from './ChordStrip';
@@ -31,7 +37,12 @@ export default function SongView({
   const [scrollSpeed, setScrollSpeed] = useState(3);
   const [presentationMode, setPresentationMode] = useState(false);
   const [instrument, setInstrument] = useState('both');
+  const [chordNotation, setChordNotation] = useState(getInitialChordNotation);
   const lyricsScrollRef = useRef(null);
+
+  function handleChordNotationChange(next) {
+    setChordNotation(saveChordNotation(next));
+  }
 
   const lines = parseBodyLines(song.body, transpose);
   const displayKey = song.key ? getKeyAfterTranspose(song.key, transpose) : null;
@@ -42,8 +53,8 @@ export default function SongView({
   );
 
   const meta = formatAllPlacements(song);
-  if (displayKey) meta.push(formatKeyLabel(displayKey));
-  else if (song.key) meta.push(formatKeyLabel(song.key));
+  if (displayKey) meta.push(formatKeyLabel(displayKey, chordNotation));
+  else if (song.key) meta.push(formatKeyLabel(song.key, chordNotation));
   if (capo > 0) meta.push(`Cejilla traste ${capo}`);
   if (song.artist) meta.push(song.artist);
 
@@ -94,14 +105,20 @@ export default function SongView({
         </button>
         <div className="toolbar-actions">
           {hasChords && (
-            <label className="toggle-chords">
-              <input
-                type="checkbox"
-                checked={showChords}
-                onChange={(e) => setShowChords(e.target.checked)}
+            <>
+              <label className="toggle-chords">
+                <input
+                  type="checkbox"
+                  checked={showChords}
+                  onChange={(e) => setShowChords(e.target.checked)}
+                />
+                <span>Acordes</span>
+              </label>
+              <ChordNotationToggle
+                value={chordNotation}
+                onChange={handleChordNotationChange}
               />
-              <span>Acordes</span>
-            </label>
+            </>
           )}
           {!presentationMode && (
             <>
@@ -146,13 +163,14 @@ export default function SongView({
               onSelectChord={setActiveChord}
               instrument={instrument}
               capo={capo}
+              chordNotation={chordNotation}
             />
           </>
         )}
 
         {inlineChord && showChords && (
           <div className="inline-chord-popup">
-            <ChordDisplay chord={inlineChord} instrument={instrument} capo={capo} />
+            <ChordDisplay chord={inlineChord} instrument={instrument} capo={capo} chordNotation={chordNotation} />
             <button type="button" className="inline-chord-close" onClick={() => setInlineChord(null)}>
               Cerrar
             </button>
@@ -171,6 +189,7 @@ export default function SongView({
                   <ChordRowAbove
                     chordLine={line.chordLine}
                     onChordClick={handleInlineChordClick}
+                    chordNotation={chordNotation}
                   />
                   {line.lyricLine && (
                     <div className="lyric-row-below">{line.lyricLine}</div>
@@ -190,7 +209,7 @@ export default function SongView({
                       onClick={() => handleInlineChordClick(segment.text)}
                       title="Ver diagrama"
                     >
-                      {segment.text}
+                      {formatChordDisplay(segment.text, chordNotation)}
                     </button>
                   ) : (
                     <span key={i} className="lyric-chunk">{segment.text}</span>
